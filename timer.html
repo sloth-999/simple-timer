@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Timer</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="timer.css">
+	
+	</head>
+	<form>
+
+		<p>Minutes: <input type="text" id="mns" name="mns" value="0" size="3" maxlength="3" /> &nbsp; &nbsp; 
+			Seconds: <input type="text" id="scs" name="scs" value="0" size="2" maxlength="2" /><br/></p>
+
+			<p class="time"><span id="showmns">00</span>:<span id="showscs">00</span></p>
+
+			<input type="button" id="btnct" value="COUNTDOWN" onclick="countDownFunction()"/>
+	</form>
+<script type="text/javascript" src="timer.js"></script>
+
+</html>
